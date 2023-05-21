@@ -37,3 +37,8 @@ The CNN architecture used for face recognition follows a similar structure to th
 ### Training and Evaluation
 
 The model is trained on the training subset of the face recognition dataset and validated on the validation subset. The training progress is monitored using callbacks, and the best weights are saved. The training and validation loss as well as the training and validation accuracy are plotted to assess the model's performance. A confusion matrix is generated to evaluate the model's ability to recognize faces accurately.
+
+## Authors
+
+- Siwar Zagouji ([@SiwarZagouji](https://github.com/SiwarZagouji))
+- Ilyes Jaouadi ([@Las111](https://github.com/Las111))
