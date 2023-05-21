@@ -37,20 +37,3 @@ The CNN architecture used for face recognition follows a similar structure to th
 ### Training and Evaluation
 
 The model is trained on the training subset of the face recognition dataset and validated on the validation subset. The training progress is monitored using callbacks, and the best weights are saved. The training and validation loss as well as the training and validation accuracy are plotted to assess the model's performance. A confusion matrix is generated to evaluate the model's ability to recognize faces accurately.
-
-## Usage
-
-To use the Emotion Detector and Face Recognition system:
-
-1. Prepare the dataset: Ensure that you have properly organized datasets for both emotion detection and face recognition, containing labeled images of the desired emotions and individuals, respectively.
-
-2. Install the required libraries: Make sure you have TensorFlow, Keras, OpenCV, and other necessary libraries installed. You can use the requirements.txt file to install the required packages.
-
-3. Preprocess the data: Use the provided ImageDataGenerator to preprocess the data, including resizing, converting to grayscale, and applying data augmentation techniques.
-
-4. Train the models: Build and train the emotion detection and face recognition models using the prepared datasets. Monitor the training progress and save the best weights using callbacks.
-
-5. Evaluate the models: After training, evaluate the models' performance by plotting the loss and accuracy curves and generating confusion matrices.
-
-6. Use the models for prediction: Use the trained models to predict emotions from facial expressions or
-
